@@ -886,6 +886,22 @@ CART DRAWER
   .newsletter-form input{
   width:100%;
   }
+
+  .cart-drawer{
+
+    position:fixed;
+    
+    top:0;
+    right:-300px;
+    
+    width:300px;
+    height:100vh;
+    
+    }
+    
+    .cart-drawer.open{
+    right:0;
+    }
   
   }
 
@@ -932,7 +948,7 @@ SHOP HERO
   
   .filter-container{
   
-  display:flex;
+  display:grid;
   gap:20px;
   
   background:#111;
@@ -1492,4 +1508,5 @@ SHOP HERO
   75%{transform:translateX(-5px)}
   100%{transform:translateX(0)}
   
+
   }
