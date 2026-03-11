@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CappStore | Shop</title>
+
+<meta name="description" content="Explore premium streetwear, sneakers and luxury fashion from CappStore.">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="cursor"></div>
+<div class="scroll-bar"></div>
+
+<!-- ANNOUNCEMENT -->
+
+<div class="announcement">
+🚚 Free Worldwide Shipping on Orders Over $100
+</div>
+
+<!-- HEADER -->
+
+<header class="header">
+
+<i class="fa-solid fa-bars menu-toggle"></i>
+
+<div class="logo">
+<a href="index.html">Capp<span>Store</span></a>
+</div>
+
+<nav class="nav">
+
+<a href="index.html#hero">Home</a>
+<a href="index.html#categories">Categories</a>
+<a href="index.html#new-arrival">New Arrivals</a>
+<a href="shop.html">Shop</a>
+
+</nav>
+
+<div class="nav-right">
+
+<div class="cart-icon" id="cartIcon">
+<i class="fa fa-shopping-bag"></i>
+<span class="cart-count" id="cartCount">0</span>
+</div>
+
+</div>
+
+</header>
+
+<!-- SHOP HERO -->
+
+<section class="shop-hero">
+
+<h2>Discover Our Collection</h2>
+
+<p>Streetwear. Luxury. Performance.</p>
+
+</section>
+
+<!-- FILTERS -->
+
+<section class="shop-filters">
+
+<div class="filter-container">
+
+<input type="text" id="searchInput" placeholder="Search products...">
+
+<select id="categoryFilter">
+
+<option value="all">All Categories</option>
+<option value="sneakers">Sneakers</option>
+<option value="hoodies">Hoodies</option>
+<option value="tracksuit">Tracksuits</option>
+
+</select>
+
+</div>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section class="luxury-products">
+
+<h2 class="section-title">All Products</h2>
+
+<div class="luxury-grid">
+
+<!-- PRODUCT -->
+
+<div class="luxury-card product-card"
+data-category="sneakers"
+data-name="Elite Sneakers"
+data-price="199"
+data-img="https://images.unsplash.com/photo-1656944227480-98180d2a5155">
+
+<div class="product-image">
+
+<img src="https://images.unsplash.com/photo-1656944227480-98180d2a5155"
+class="main-img">
+
+<img src="https://images.unsplash.com/photo-1656944227425-5646be300a14"
+class="hover-img">
+
+</div>
+
+<div class="product-info">
+
+<h3>Elite Sneakers</h3>
+
+<p class="price">$199</p>
+
+<div class="sizes">
+
+<span data-size="38">38</span>
+<span data-size="39">39</span>
+<span data-size="40">40</span>
+<span data-size="41">41</span>
+<span data-size="42">42</span>
+
+</div>
+
+<div class="colors">
+
+<span class="color" data-color="Black" style="background:black"></span>
+<span class="color" data-color="White" style="background:white;border:1px solid #ccc"></span>
+<span class="color" data-color="Purple" style="background:#7B2CFF"></span>
+
+</div>
+
+<button class="add-cart">Add To Cart</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT -->
+
+<div class="luxury-card product-card"
+data-category="hoodies"
+data-name="Premium Hoodie"
+data-price="149"
+data-img="https://images.unsplash.com/photo-1680292783974-a9a336c10366">
+
+<div class="product-image">
+
+<img src="https://images.unsplash.com/photo-1680292783974-a9a336c10366"
+class="main-img">
+
+<img src="https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc"
+class="hover-img">
+
+</div>
+
+<div class="product-info">
+
+<h3>Premium Hoodie</h3>
+
+<p class="price">$149</p>
+
+<div class="sizes">
+
+<span data-size="S">S</span>
+<span data-size="M">M</span>
+<span data-size="L">L</span>
+<span data-size="XL">XL</span>
+
+</div>
+
+<div class="colors">
+
+<span class="color" data-color="Black" style="background:black"></span>
+<span class="color" data-color="Gray" style="background:gray"></span>
+<span class="color" data-color="Blue" style="background:#2D7CFF"></span>
+
+</div>
+
+<button class="add-cart">Add To Cart</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT -->
+
+<div class="luxury-card product-card"
+data-category="tracksuit"
+data-name="Tracksuit"
+data-price="209"
+data-img="https://images.unsplash.com/photo-1715609106315-9338a28a8dfe">
+
+<div class="product-image">
+
+<img src="https://images.unsplash.com/photo-1715609106315-9338a28a8dfe"
+class="main-img">
+
+<img src="https://images.unsplash.com/photo-1715609104583-f627752d2bbb"
+class="hover-img">
+
+</div>
+
+<div class="product-info">
+
+<h3>Tracksuit</h3>
+
+<p class="price">$209</p>
+
+<div class="sizes">
+
+<span data-size="S">S</span>
+<span data-size="M">M</span>
+<span data-size="L">L</span>
+<span data-size="XL">XL</span>
+
+</div>
+
+<div class="colors">
+
+<span class="color" data-color="Black" style="background:black"></span>
+<span class="color" data-color="Gray" style="background:gray"></span>
+<span class="color" data-color="Blue" style="background:#2D7CFF"></span>
+
+</div>
+
+<button class="add-cart">Add To Cart</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- NEWSLETTER -->
+
+<section class="newsletter scroll-left">
+
+<div class="newsletter-container">
+
+<h2>Join the CappStore VIP Club</h2>
+
+<p>Get exclusive offers and new drops.</p>
+
+<form class="newsletter-form">
+
+<input type="email" placeholder="Enter your email">
+
+<button type="submit">Subscribe</button>
+
+</form>
+
+</div>
+
+</section>
+
+<!-- CART DRAWER -->
+
+<div class="cart-drawer" id="cartDrawer">
+
+<div class="cart-header">
+
+<h2>Your Cart</h2>
+<span id="closeCart">✕</span>
+
+</div>
+
+<div class="cart-items"></div>
+
+<div class="cart-footer">
+
+<h3>Total: $<span id="total">0</span></h3>
+
+<button class="checkout-btn">Checkout</button>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-col">
+
+<h3>CappStore</h3>
+<p>Premium streetwear designed for style and comfort.</p>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Shop</h4>
+
+<ul>
+
+<li><a href="#">New Arrivals</a></li>
+<li><a href="#">Best Sellers</a></li>
+<li><a href="#">Collections</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Support</h4>
+
+<ul>
+
+<li><a href="#">Contact</a></li>
+<li><a href="#">Shipping</a></li>
+<li><a href="#">Returns</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Follow Us</h4>
+
+<div class="socials">
+
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">TikTok</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>© 2026 CappStore. All rights reserved.</p>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
