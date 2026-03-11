@@ -32,26 +32,7 @@ GLOBAL
   background:linear-gradient(90deg,#7B2CFF,#007BFF);
   z-index:9999;
   }
-  
-  /* ======================
-  CUSTOM CURSOR
-  ====================== */
-  
-  body{
-  cursor:none;
-  }
-  
-  .cursor{
-  width:18px;
-  height:18px;
-  border:2px solid #7B2CFF;
-  border-radius:50%;
-  position:fixed;
-  transform:translate(-50%,-50%);
-  pointer-events:none;
-  z-index:9999;
-  }
-  
+
   /* ======================
   ANNOUNCEMENT BAR
   ====================== */
@@ -1510,3 +1491,4 @@ SHOP HERO
   
 
   }
+
