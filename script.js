@@ -22,19 +22,6 @@ if(toggle){
     }
   });
 }
-
-/* =========================
-CUSTOM CURSOR
-========================= */
-
-const cursor = document.querySelector(".cursor");
-if(cursor){
-  document.addEventListener("mousemove",(e)=>{
-    cursor.style.left = e.clientX + "px";
-    cursor.style.top = e.clientY + "px";
-  });
-}
-
 /* =========================
 SCROLL PROGRESS BAR
 ========================= */
@@ -285,4 +272,5 @@ if(categoryFilter) categoryFilter.addEventListener("change", filterProducts);
 /* =========================
 INIT
 ========================= */
+
 renderCart();
